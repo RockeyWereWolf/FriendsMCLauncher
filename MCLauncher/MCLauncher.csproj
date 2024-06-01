@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CmlLib.Core" Version="3.3.10" />
+    <PackageReference Include="CmlLib.Core.Installer.Forge" Version="0.0.3" />
+    <PackageReference Include="CurseForge.APIClient" Version="2.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="ReaLTaiizor" Version="3.8.0.5" />
+  </ItemGroup>
+
+</Project>
